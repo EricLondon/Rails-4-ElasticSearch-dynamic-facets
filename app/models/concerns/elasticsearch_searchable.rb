@@ -9,8 +9,13 @@ module ElasticsearchSearchable
     # require and include Elasticsearch libraries
     require 'elasticsearch/model'
     include Elasticsearch::Model
-    include Elasticsearch::Model::Callbacks
+    #include Elasticsearch::Model::Callbacks
     include Elasticsearch::Model::Indexing
+
+    # debug logging
+    if Rails.env == 'development'
+      Elasticsearch::Model.client = Elasticsearch::Client.new log: true
+    end
 
     # index document on model touch
     # @see: http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html
