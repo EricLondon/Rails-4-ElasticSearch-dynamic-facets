@@ -45,13 +45,10 @@ city_states = [
 
   # create things
   things = (1..10).map do
-    Thing.create({
+    person.things.create({
       name:        RandomWord.nouns.next,
       description: RandomWord.nouns.next,
     })
   end
-
-  person.things = things
-  person.save
 
 end
