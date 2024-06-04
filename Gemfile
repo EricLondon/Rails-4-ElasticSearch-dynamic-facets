@@ -41,7 +41,7 @@ group :development do
   gem 'pry'
   gem 'pry-rails'
   gem 'quiet_assets'
-  gem 'better_errors', '< 2' # https://github.com/charliesome/better_errors/commit/a449f136124f2933a39f038249693bda381cd097
+  gem 'better_errors', '< 3' # https://github.com/charliesome/better_errors/commit/a449f136124f2933a39f038249693bda381cd097
 end
 
 # bootstrap gems
