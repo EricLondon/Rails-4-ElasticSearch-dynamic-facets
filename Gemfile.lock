@@ -142,7 +142,7 @@ GEM
       stringio
     psych (5.1.2-java)
       jar-dependencies (>= 0.1.7)
-    quiet_assets (1.0.3)
+    quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     racc (1.8.0)
     racc (1.8.0-java)
