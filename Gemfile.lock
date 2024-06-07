@@ -59,7 +59,7 @@ GEM
       rouge (>= 1.0.0)
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
-    builder (3.2.4)
+    builder (3.3.0)
     coderay (1.1.3)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -142,7 +142,7 @@ GEM
       stringio
     psych (5.1.2-java)
       jar-dependencies (>= 0.1.7)
-    quiet_assets (1.0.3)
+    quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     racc (1.8.0)
     racc (1.8.0-java)
