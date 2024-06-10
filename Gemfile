@@ -45,5 +45,5 @@ group :development do
 end
 
 # bootstrap gems
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'autoprefixer-rails'
